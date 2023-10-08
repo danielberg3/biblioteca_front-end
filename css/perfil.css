@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+    color: #261C1A;    
+}
+
+html, body, body > div{
+    height: 100%;
+}
+
+body > div{
+    display: flex;
+}
+
+
+.barraNavegar{
+    display: flex;
+    height: 32px;
+    padding: 8px;
+    color: white;
+    align-items: center;
+    background-color: #AC8F83;
+}
+
+.barraNavegar img{
+    width: 32px;
+    margin-right: 32px;
+}
+
+
+
+.links{
+    width: 225px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+  }
+  
+  a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #261C1A;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
+
+  a:hover{
+    transition: width 0.3s ease-in-out;
+    color: #261C1A;
+    cursor: pointer;
+  }
+
+#container{
+    width: 30%;
+    background-color: #57342d;
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    padding-left: 8px;
+    justify-content: center;
+    gap: 4px;
+}
+
+#nome, #email, #idade{
+    color: white;
+    margin: 0 auto;
+
+}
+
+#primeiraDiv{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D5CCC7;
+
+}
+
+#imagem{
+    width: 100px;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 32px;
+    margin: 12px;
+}
+
+#container2{
+    padding: 12px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    
+}
+
+#container2 > div{
+    text-align: center;
+}

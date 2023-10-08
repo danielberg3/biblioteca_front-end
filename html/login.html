@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css"/>
+    <title>Login</title>
+</head>
+<body>
+    
+
+    <navbar class="barraNavegar">
+        <img src="../images/logo.svg" alt="logo">
+        <div class="links">
+            <a href="../index.html">HOME</a>
+        </div>
+    </navbar>
+
+    <div id="sessaoForm">
+
+        
+        <form>
+            <h1>Login</h1>
+            <span>
+                <p>Usuário</p>
+                <input class="campos" id="usuario" name="usuario" type="email" placeholder="Informe o usuário">        
+            </span>
+            <span>
+                <p>Senha</p>
+                <input class="campos" id="senha" name="senha" type="password" placeholder="Digite a senha">        
+            </span>
+            <p id="msgErro">    </p>
+            <button id="efetuarLogin">login</button>
+        </form>
+    </div>
+
+    <script src="../js/login.js"></script>
+
+    </body>
+    </html>
