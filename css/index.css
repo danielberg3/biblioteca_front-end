@@ -15,12 +15,30 @@
     color: white;
     align-items: center;
     background-color: #AC8F83;
+    
 }
 
 .barraNavegar img{
     width: 32px;
     margin-right: 32px;
 }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 48;
+  
+
+}
+
+#login:hover{
+    cursor: pointer;
+}
+
+
 
 .links{
     width: 225px;
@@ -59,7 +77,7 @@ a {
 
 .capa{
     display: flex;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/library.jpg');;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/library.jpg');;
     color: white;
     background-size: 100% 100%;
     height: 500px;
@@ -206,6 +224,85 @@ ul li div{
     scale: 1.2;
     transition: transform .3s;
     cursor: pointer;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+
+
+#meuElemento{
+    display: flex;
+    width: 800px;
+    background-color: #D5CCC7;
+    padding: 18px;
+    border-radius: 8px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+#descricao{
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#fechar{
+    width: 32px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+#fechar:hover{
+    scale: 1.1;
+}
+
+#emprestar{
+    background-color: #00FF00;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+#emprestar:hover{
+    scale: 1.1;
+}
+
+#titulo{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+#resumo, #autor, #paginas{
+    font-size: 18px;
+    color: #57342d;
+    text-align: justify;
+    margin: 8px;
+}
+
+.desativado{
+    opacity: 0.5;
+    pointer-events: none;
+    overflow: hidden;
 }
 
 
